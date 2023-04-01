@@ -1,11 +1,11 @@
 first_operand = float(input("1st operand >> "))
 second_operand = float(input("2st operand >> "))
 
-print("Choose operation: \n"
-      "button (1) --- Add (+) \n"
-      "button (2) --- Subtract (-) \n"
-      "button (3) --- Multiply (*) \n"
-      "button (4) --- Divide (/) \n")
+print("Press 1-4 numeric button to confirm operation: \n"
+      "(1) --- Add (+) \n"
+      "(2) --- Subtract (-) \n"
+      "(3) --- Multiply (*) \n"
+      "(4) --- Divide (/) \n")
 
 operation = int(input(">> "))
 match operation:
